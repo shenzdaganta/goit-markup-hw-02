@@ -19,7 +19,7 @@
 .logoheader span {
     text-decoration: none;
     color: var(--IRIS);
-    margin-left: 0px;
+
 }
 
 .logoheader {
@@ -36,6 +36,7 @@
 }
 
 .navlink a {
+    margin-block-start: 0px;
     color: var(--NAVYBLUE);
     text-decoration: none;
     font-family: Roboto;
@@ -49,6 +50,8 @@
 
 .navlink {
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .navlink a:hover {
@@ -69,6 +72,8 @@
 
 .navcontact {
     list-style: none;
+    padding-left: 0;
+   
 }
 
 .hero {
@@ -88,13 +93,17 @@
 }
 
 .button {
+    border-radius: 4px;
+    border: none;
     background-color: #4D5AE5;
     color: var(--WHITE)
 
 }
 
+
 .herolist {
     list-style: none;
+    padding-left: 0;
 }
 
 .whatsection {
@@ -110,6 +119,7 @@
 
 .whatlist {
     list-style: none;
+    padding-left: 0;
 }
 
 .team {
@@ -130,6 +140,7 @@
 
 .teamlist {
     list-style: none;
+    padding-left: 0;
 }
 
 .footer {
